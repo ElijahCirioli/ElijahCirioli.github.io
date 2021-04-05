@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+	#name-header {
+		height: 40px;
+		font-size: 40px;
+		line-height: 40px;
+		margin: 35px auto 11px auto;
+	}
+}
