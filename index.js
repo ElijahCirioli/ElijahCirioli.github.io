@@ -6,4 +6,7 @@ window.onload = () => {
 	} else {
 		document.getElementById("name-header").style.top = "50px";
 	}
+	const carousel = document.getElementById("carousel-wrap");
+	carousel.scrollLeft = carousel.scrollWidth - carousel.clientWidth;
+	window.scrollTo(0, 0);
 };
