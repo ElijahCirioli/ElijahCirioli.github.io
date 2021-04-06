@@ -11,4 +11,31 @@
 		margin-top: 85px;
 		position: relative;
 	}
+	#carousel {
+		flex-direction: column-reverse;
+	}
+	#content-wrap {
+		width: 90%;
+		margin-top: 0;
+	}
+	#carousel-wrap {
+		overflow-x: auto;
+		overflow-y: auto;
+		scroll-snap-type: y mandatory;
+	}
+	.carousel-border {
+		display: none;
+	}
+	.card {
+		margin: 15px 0;
+	}
+	.card:hover {
+		transform: translateY(0);
+	}
+	.card:hover ~ .card {
+		transform: translateX(0);
+	}
+	.card:not(:first-child) {
+		margin-left: 0;
+	}
 }
