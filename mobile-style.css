@@ -12,6 +12,7 @@
 		position: relative;
 	}
 	#carousel {
+		padding-top: 20px;
 		flex-direction: column-reverse;
 	}
 	#content-wrap {
@@ -28,6 +29,7 @@
 	}
 	.card {
 		margin: 15px 0;
+		box-shadow: none;
 	}
 	.card:hover {
 		transform: translateY(0);
