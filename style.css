@@ -85,7 +85,7 @@ body {
 }
 #content-wrap {
 	width: 70%;
-	margin: 30px auto;
+	margin: 10px auto;
 	overflow: visible;
 	position: relative;
 }
@@ -116,7 +116,7 @@ body {
 }
 #carousel {
 	display: flex;
-	padding: 60px 60px;
+	padding: 90px 60px;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
@@ -186,7 +186,7 @@ body {
 	border: none;
 }
 ::-webkit-scrollbar-thumb {
-	background: #141424;
+	background: #151521;
 	border-radius: 2px;
 	border: none;
 }
