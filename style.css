@@ -129,6 +129,7 @@ body {
 	border-radius: 20px;
 	background-color: #1a1c2b;
 	min-width: 280px;
+	max-width: 280px;
 	height: 400px;
 	padding: 20px 25px;
 	box-shadow: -1.8rem 0 4rem black;
@@ -169,12 +170,13 @@ body {
 	font-family: "Open Sans", sans-serif;
 	color: #c6c6cf;
 	font-size: 14px;
-	line-height: 18px;
+	line-height: 19px;
 	margin: 17px 0 0 0;
 	overflow-y: auto;
 }
 .card-text {
-	margin: 0 0 0 0;
+	display: block;
+	margin: 0 0 8px 0;
 }
 ::-webkit-scrollbar {
 	width: 6px;
@@ -211,16 +213,56 @@ body {
 	background-color: #f2f3fa;
 	color: #1a1c2b;
 }
-a {
+#name-link {
 	color: inherit;
 	text-decoration: inherit;
 	cursor: pointer;
 }
-a:visited {
+#name-link:visited {
 	color: inherit;
 	text-decoration: inherit;
 }
-a:active {
+#name-link:active {
 	color: inherit;
 	text-decoration: inherit;
+}
+.link {
+	text-decoration: underline;
+	color: #d19f49;
+}
+.link:visited {
+	color: #d19f49;
+}
+.link:active {
+	color: #d19f49;
+}
+.card-button {
+	display: block;
+	text-align: center;
+	width: 90%;
+	color: #f2f3fa;
+	background-color: #0e0b1a;
+	margin: 12px auto 0;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 15px;
+	font-size: 20px;
+	font-family: "Martel", serif;
+	font-weight: 600;
+	cursor: pointer;
+	border: 2px solid #f2f3fa;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.card-button:hover {
+	color: #0e0b1a;
+	background-color: #f2f3fa;
+}
+#profile-picture {
+	display: block;
+	width: 50%;
+	height: auto;
+	border: 2px solid #f2f3fa;
+	border-radius: 50%;
+	margin: 10px auto 5px auto;
 }
