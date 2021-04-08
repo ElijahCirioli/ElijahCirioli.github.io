@@ -192,7 +192,7 @@ body {
 	border-radius: 2px;
 	border: none;
 }
-#blog-button {
+#big-button {
 	display: block;
 	text-align: center;
 	margin: 0 auto;
@@ -208,8 +208,9 @@ body {
 	cursor: pointer;
 	transition: 0.4s;
 	border: 2px solid #f2f3fa;
+	text-decoration: none;
 }
-#blog-button:hover {
+#big-button:hover {
 	background-color: #f2f3fa;
 	color: #1a1c2b;
 }
