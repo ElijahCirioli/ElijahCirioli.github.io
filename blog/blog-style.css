@@ -51,3 +51,11 @@
 	display: block;
 	margin: 0 0 8px 0;
 }
+@media only screen and (max-width: 600px) {
+	#blog-content-wrap {
+		width: 95%;
+	}
+	.post {
+		padding: 20px 30px;
+	}
+}

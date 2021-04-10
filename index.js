@@ -8,5 +8,4 @@ window.onload = () => {
 	}
 	const carousel = document.getElementById("carousel-wrap");
 	carousel.scrollLeft = carousel.scrollWidth - carousel.clientWidth;
-	window.scrollTo(0, 0);
 };
