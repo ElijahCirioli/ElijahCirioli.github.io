@@ -139,7 +139,7 @@ body {
 	transform: translateY(-2rem);
 }
 .card:hover ~ .card {
-	transform: translateX(110px);
+	transform: translateX(120px);
 }
 .card:not(:first-child) {
 	margin-left: -80px;
