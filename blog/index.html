@@ -39,7 +39,54 @@
 			<div id="blog-content-wrap">
 				<div class="post">
 					<div class="post-header">
-						<h2 id="4/8/2021" class="post-title">Making this site</h2>
+						<h2 id="4-21-2021" class="post-title">Making tweeter</h2>
+						<h2 class="post-date">April 21, 2021</h2>
+					</div>
+					<div class="post-body">
+						<p class="blog-text">
+							For this project I tried to follow good CSS practices at least to the level that I
+							understand what those are. This kind of thing is pretty easy for me because I have some
+							experience doing it. I just kinda worked my way down from the header, styling things as I
+							went. The mocks provided were pretty decent but I wish they were a higher resolution. It’s
+							hard to discern font weights and colors when the image is that compressed.
+							<br /><br />
+							I guess the central question of this assignment was how to display the actual twits. I use a
+							lot of flexboxes normally and that may even be what they wanted us to do here but I thought
+							this was an application that was better suited for the grid layout. I thought this mostly
+							because we wanted all the columns to be the same width. I could have done this by setting a
+							min and max width on the twit children but that seemed like a worse solution than using
+							grid. I haven’t actually worked with grid a lot so I had to look up a little bit about how
+							to autofill them columns to fit the available space. I had never used the CSS repeat
+							function before but it did the job nicely here. The assignment did say we could only have a
+							maximum of 3 columns which is actually not the case with my styling. I couldn’t figure out a
+							good way to cap the number of columns without adding more html or javascript so I guess it’s
+							just gonna be this way. I do think it’s actually better that it can add as many columns as
+							it wants to stay responsive to larger screens. On a 1080p screen it should cap out at 3 but
+							I imagine it would be more in 4k.
+							<br /><br />
+							I had also never used the “fixed” position attribute before but I at least had a pretty good
+							idea of what it did. It was a pretty obvious choice for the red button because it needs to
+							stay in the same position relative to the viewport. Years ago I probably would have done
+							that with javascript but this is undoubtedly better and I will probably use it in the
+							future.
+							<br /><br />
+							One thing I didn’t like was that the html we were given didn’t include a viewport tag in the
+							head. This means that we can’t really be sure how big a pixel is, especially when we go to
+							different sizes of screen like mobile. I usually use a combination of all sorts of units,
+							mainly percentages for widths and then some pixels for heights. Because I couldn’t really be
+							guaranteed of a pixel’s size I didn’t really want to use them for this project. Instead I
+							used rem for pretty much everything here which basically means I was just using pixels with
+							extra steps. The nice thing is that if I add a viewport tag down the line then I can do
+							media queries and scale all of these pixel values at once which will be really nice.
+							<br /><br />
+							Overall there’s not much to say about this one. It’s pretty simple but it was a nice excuse
+							to get more experience with proper CSS practices.
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<div class="post-header">
+						<h2 id="4-8-2021" class="post-title">Making this site</h2>
 						<h2 class="post-date">April 8, 2021</h2>
 					</div>
 					<div class="post-body">
