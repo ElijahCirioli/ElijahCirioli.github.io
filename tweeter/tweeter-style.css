@@ -136,7 +136,7 @@ a:active {
 	right: 2.5rem;
 	bottom: 1.5rem;
 	z-index: 2;
-	box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem #a6a6a6;
+	box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 #create-twit-button:hover {
 	background-color: #319df6;
