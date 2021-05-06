@@ -39,7 +39,54 @@
 			<div id="blog-content-wrap">
 				<div class="post">
 					<div class="post-header">
-						<h2 id="4-21-2021" class="post-title">Making tweeter</h2>
+						<h2 id="5-6-2021" class="post-title">Making Tweeter JS</h2>
+						<h2 class="post-date">May 6, 2021</h2>
+					</div>
+					<div class="post-body">
+						<p class="blog-text">
+							This assignment was another pretty easy one just because it’s a lot like what I do in my
+							free time. I have been relying pretty heavily on jQuery lately so it took me a second to
+							regain my bearings in manipulating the DOM with just vanilla javascript but it’s really not
+							that bad. I used the querySelector function a lot more than I usually would with this
+							project because there were a lot of unique elements that I was trying to find by their class
+							name. I could have used the getElementsByClassName() function but then I would need to add a
+							[0] to the end and who has time for that?
+							<br /><br />
+							An interesting little challenge was that we were given twits baked into the HTML but we also
+							had to add our own on top of that. Adding a twit could just push it into the DOM but we were
+							also told that searching for twits must remove all the ones that don’t match completely,
+							rather than just hiding them. What this really means to me is that we need to store the
+							twits in javascript behind the scenes. I created a class to store a twit which was pretty
+							simple because they’re just some text and an author. When the page loads I find all of the
+							twits and look through their children to get the author and text. The formatting we were
+							given includes newline characters at the beginning of every twit that I needed to remove
+							when I imported them into the javascript. I just did this with substring but there’s
+							probably better ways that I could do it.
+							<br /><br />
+							Creating the twits as HTML was a bit time consuming. I used a lot of createElement() and
+							appendChild(). I would usually do this as a big template string and then sanitize my inputs
+							using jQuery, but for this I had to sanitize using the textContent property. This way wasn’t
+							hard, it’s just a lot more lines of code than the usual way I would do things.
+							<br /><br />
+							Another important feature was the search functionality. We were told that it would be better
+							to make the search happen live which is nice (and it also renders the search button
+							completely useless). I’ve done live searches exactly like this in the past. What I might
+							usually do is split the search query into individual words and then rank the results by how
+							many of those terms they match but for this we were just supposed to match the whole query
+							with either the author or the text. I used toLowerCase() to make sure that the search was
+							case insensitive. I also made sure to call trim() a bunch of different times in this
+							assignment. When a field isn’t supposed to be blank I didn’t want people to be able to just
+							type a space and I didn’t want trailing spaces to mess up someone’s search query.
+							<br /><br />
+							There might be even less to say about this assignment than the last one. It’s some pretty
+							standard javascript page interactions. Hopefully the next assignment will be a bit more
+							complicated.
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<div class="post-header">
+						<h2 id="4-21-2021" class="post-title">Making Tweeter CSS</h2>
 						<h2 class="post-date">April 21, 2021</h2>
 					</div>
 					<div class="post-body">
