@@ -39,6 +39,36 @@
 			<div id="blog-content-wrap">
 				<div class="post">
 					<div class="post-header">
+						<h2 id="5-16-2021" class="post-title">Simple node.js backend</h2>
+						<h2 class="post-date">May 16, 2021</h2>
+					</div>
+					<div class="post-body">
+						<p class="blog-text">
+							I’ve written server code using node.js a couple times before but I usually use express so I
+							wasn’t exactly used to the syntax for the normal HTTP module. It isn’t that complicated so
+							it wasn’t a big deal. I probably would really be missing express if we had to make a very
+							complicated server but for something of this scale it doesn’t really matter.
+							<br /><br />
+							For this we were told to only read the contents of our files once which makes sense. I’m not
+							really happy with how I named my variables but I wasn’t really able to come up with a better
+							solution. I think in the future, especially if I have a larger file system I might structure
+							my variables as one large JSON object. This could let me do subdirectories really well I
+							think and I could name the variables exactly after the actual URLs. I don’t know if this is
+							what people actually do for stuff like this, but that just sounds nice to me.
+							<br /><br />
+							I would also usually do a lot of asynchronous code using promises for something like this.
+							But that’s more if I’m doing database stuff. I decided to keep things synchronous for this
+							project for the sake of simplicity. readFileSync() is technically not the fastest way to do
+							this. I might use asynchronous reads that I run all at once using Promise.all() but the
+							difference for something like this would be a couple of milliseconds at most.
+							<br /><br />
+							That’s about all there is to say for this one. Definitely simple but I liked it. I usually
+							prefer backend development.
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<div class="post-header">
 						<h2 id="5-6-2021" class="post-title">Making Tweeter JS</h2>
 						<h2 class="post-date">May 6, 2021</h2>
 					</div>
