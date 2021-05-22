@@ -183,12 +183,12 @@ body {
 	height: 6px;
 }
 ::-webkit-scrollbar-track {
-	background: #232638;
+	background: #151521;
 	border-radius: 2px;
 	border: none;
 }
 ::-webkit-scrollbar-thumb {
-	background: #151521;
+	background: #232638;
 	border-radius: 2px;
 	border: none;
 }
