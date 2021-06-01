@@ -39,6 +39,36 @@
 			<div id="blog-content-wrap">
 				<div class="post">
 					<div class="post-header">
+						<h2 id="6-1-2021" class="post-title">Express and handlebars</h2>
+						<h2 class="post-date">June 1, 2021</h2>
+					</div>
+					<div class="post-body">
+						<p class="blog-text">
+							I’ve used express a lot in the past but I had never used handlebars before so this
+							assignment came with lots of new challenges. I expected the client side twit template to be
+							the more difficult part because I needed to pre-compile the template into regular javascript
+							that can be served to the client. I looked at the code from class to figure out how to make
+							a script to compile the template whenever I run the server. This ended up being pretty easy
+							and the client side code to utilize the template was much shorter than the old version which
+							was nice.
+							<br /><br />
+							I ended up spending a lot more time on the server side templates. The templates and partials
+							were easy enough to make, but it took me a few tries to get the file structure right with
+							the proper folders for the layout, views, and partials. Once I figured that out, I also had
+							to figure out how layouts actually worked. I had to look up some documentation to find the
+							proper keyword for the {{{body}}} tag. I really like how easy that makes it to keep the same
+							header and footer for every page so I will definitely use them more in the future.
+							<br /><br />
+							I also think the handlebars expressions are really useful. I used a couple if expressions to
+							show and hide certain partials and I used the each expression to iterate through all of the
+							twits. This was nice because I could just pass it an array of twits and it would display
+							however many there were. This let me reuse all the same templates for the page that displays
+							a single twit because all I had to do was pass in an array containing only one object.
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<div class="post-header">
 						<h2 id="5-16-2021" class="post-title">Simple node.js backend</h2>
 						<h2 class="post-date">May 16, 2021</h2>
 					</div>
